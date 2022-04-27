@@ -21,5 +21,3 @@ Foreach ($app in $apps) {
         Write-host "Skipping Install of " $app.name
     }
 }
-
-winget install --id=TheDocumentFoundation.LibreOffice -e  ; winget install --id=Zoom.Zoom -e  ; winget install --id=Adobe.Acrobat.Reader.64-bit -e  ; winget install --id=Google.Chrome -e 

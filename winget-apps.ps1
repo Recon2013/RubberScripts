@@ -3,7 +3,7 @@ $apps = @(
     @{name = "TheDocumentFoundation.LibreOffice" }, 
     @{name = "Zoom.Zoom" }, 
     @{name = "Adobe.Acrobat.Reader.64-bit" }, 
-    @{name = "Google.Chrome" }, 
+    @{name = "Google.Chrome" } 
 );
 Foreach ($app in $apps) {
     #check if the app is already installed
